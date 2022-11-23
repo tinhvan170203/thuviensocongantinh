@@ -14,7 +14,7 @@ app.use(function(req, res, next) {
     next();
   });
 app.use(cors({
-    origin: "https://conganhungyenthuvienso.onrender.com",
+    origin: "https://thuviensoconganhungyen.onrender.com",
     credentials: true
 }));
 app.use(express.json());
